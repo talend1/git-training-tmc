@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_VBr1AU-eEei4E_fCz_1muw" label="TMC_GIT" description="Studio project linked to Git" language="java" technicalLabel="TMC_GIT" author="_VBr1Ak-eEei4E_fCz_1muw" productVersion="Talend Cloud Data Management Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/talend1/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+  <TalendProperties:Project xmi:id="_VBr1AU-eEei4E_fCz_1muw" label="TMC_GIT" description="Studio project linked to Git" language="java" technicalLabel="TMC_GIT" author="_VBr1Ak-eEei4E_fCz_1muw" productVersion="Talend Cloud Data Management Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/talend1/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_WbsU40-eEei4E_fCz_1muw" label="development" code="DEV"/>
     <technicalStatus xmi:id="_WbsU5E-eEei4E_fCz_1muw" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_WbsU5U-eEei4E_fCz_1muw" label="production" code="PROD"/>
@@ -85,6 +85,24 @@
         <elementParameter xmi:id="_dWKMv0-eEei4E_fCz_1muw" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
+    <ItemsRelations xmi:id="_WN-sME-iEei4E_fCz_1muw">
+      <baseItem xmi:id="_WN-sMU-iEei4E_fCz_1muw" id="_eLZgoE-gEei4E_fCz_1muw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_WN-sMk-iEei4E_fCz_1muw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sM0-iEei4E_fCz_1muw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sNE-iEei4E_fCz_1muw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sNU-iEei4E_fCz_1muw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sNk-iEei4E_fCz_1muw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sN0-iEei4E_fCz_1muw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sOE-iEei4E_fCz_1muw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sOU-iEei4E_fCz_1muw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sOk-iEei4E_fCz_1muw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sO0-iEei4E_fCz_1muw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sPE-iEei4E_fCz_1muw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sPU-iEei4E_fCz_1muw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sPk-iEei4E_fCz_1muw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sP0-iEei4E_fCz_1muw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_WN-sQE-iEei4E_fCz_1muw" id="DataQualityDependencies" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_WaWREE-eEei4E_fCz_1muw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_WaWREU-eEei4E_fCz_1muw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_WaWREk-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -235,7 +253,6 @@
     <migrationTask xmi:id="_XtNAjE-eEei4E_fCz_1muw" id="org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_XtNAjU-eEei4E_fCz_1muw" id="org.talend.designer.mapper.migration.TMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_XtNAjk-eEei4E_fCz_1muw" id="org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_XtNAj0-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_XtNAkE-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.ResetValuetInfiniteLoop" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_XtNAkU-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.UpgrateDatabaseTypeForSybaseConnection" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_XtNAkk-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -451,6 +468,7 @@
     <migrationTask xmi:id="_XtNBZE-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.WriteJSONQuoteAllValuesMigrationTask" breaks="7.0.1" version="7.0.1" status="noimpact"/>
     <migrationTask xmi:id="_XtNBZU-eEei4E_fCz_1muw" id="org.talend.core.migration.ItemSaveTriggerWholeDoc" breaks="7.0.0" version="7.0.0" status="noimpact"/>
     <migrationTask xmi:id="_XtNBZk-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.FileInputPositionalByteLengthMigrationTask" breaks="7.0.1" version="7.0.1" status="noimpact"/>
+    <migrationTask xmi:id="_XtNAj0-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_XtNBZ0-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_VBr1Ak-eEei4E_fCz_1muw" login="lin.dadobai@trial07942.us.talend.com" firstName="Adam" lastName="Brown" type="DQ"/>
