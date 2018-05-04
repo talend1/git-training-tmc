@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
   <TalendProperties:Project xmi:id="_VBr1AU-eEei4E_fCz_1muw" label="TMC_GIT" description="Studio project linked to Git" language="java" technicalLabel="TMC_GIT" author="_VBr1Ak-eEei4E_fCz_1muw" productVersion="Talend Cloud Data Management Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/talend1/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+    <technicalStatus xmi:id="_WbsU40-eEei4E_fCz_1muw" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_WbsU5E-eEei4E_fCz_1muw" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_WbsU5U-eEei4E_fCz_1muw" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_WbsU4E-eEei4E_fCz_1muw" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_WbsU4U-eEei4E_fCz_1muw" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_WbsU4k-eEei4E_fCz_1muw" label="validated" code="VAL"/>
     <migrationTask xmi:id="_WaWREE-eEei4E_fCz_1muw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_WaWREU-eEei4E_fCz_1muw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_WaWREk-eEei4E_fCz_1muw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
