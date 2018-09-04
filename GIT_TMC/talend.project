@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_3aj2cbBFEeixdbM5hYIwXw" label="Git_TMC" language="java" technicalLabel="GIT_TMC" author="_3aj2crBFEeixdbM5hYIwXw" productVersion="Talend Cloud Data Management Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/talend1/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false"/>
+  <TalendProperties:User xmi:id="_3aj2crBFEeixdbM5hYIwXw" login="linda.dobai@trial13290.us.talend.com" firstName="Adam" lastName="Brown" type="DQ"/>
+</xmi:XMI>
