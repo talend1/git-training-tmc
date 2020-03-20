@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.example.tmc_git</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.1.1</version>
+    <version>7.3.1</version>
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.tmc_git.job</groupId>
@@ -19,38 +19,78 @@
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <talend.job.version>0.1</talend.job.version>
     <talend.project.name.lowercase>tmc_git</talend.project.name.lowercase>
-    <talend.job.path>tmc_git/job2_0_1</talend.job.path>
+    <talend.job.path>tmc_git</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>TMC_GIT</talend.project.name>
-    <talend.product.version>7.1.1.20181026_1147</talend.product.version>
+    <talend.product.version>7.3.1.20200219_1130</talend.product.version>
     <talend.job.finalName>job2_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.tmc_git.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.tmc_git.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
-    <talend.job.context>Default</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
+    <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
     <talend.job.name>job2</talend.job.name>
     <talend.job.id>_qUN3IE-hEei4E_fCz_1muw</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.folder></talend.job.folder>
     <talend.job.framework></talend.job.framework>
+    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
   </properties>
   <dependencies>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>accessors-smart</artifactId>
+      <version>1.1</version>
+    </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>antlr-runtime-3.5.2</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>dom4j</groupId>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm</artifactId>
+      <version>5.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.daikon</groupId>
+      <artifactId>audit-common</artifactId>
+      <version>1.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.daikon</groupId>
+      <artifactId>audit-log4j1</artifactId>
+      <version>1.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>crypto-utils</artifactId>
+      <version>6.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.dom4j</groupId>
       <artifactId>dom4j</artifactId>
-      <version>1.6.1</version>
+      <version>2.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>job-audit</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>json-smart</artifactId>
+      <version>2.2.1</version>
     </dependency>
     <dependency>
       <groupId>log4j</groupId>
@@ -58,9 +98,29 @@
       <version>1.2.17</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-to-slf4j</artifactId>
+      <version>2.12.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.daikon</groupId>
+      <artifactId>logging-event-layout</artifactId>
+      <version>1.8.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>org.talend.dataquality.parser</artifactId>
-      <version>6.0.0</version>
+      <version>7.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.25</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -70,7 +130,7 @@
     <dependency>
       <groupId>org.example.tmc_git.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.1.1</version>
+      <version>7.3.1</version>
     </dependency>
   </dependencies>
   <build>
@@ -116,7 +176,7 @@
           <plugin>
             <groupId>org.talend.ci</groupId>
             <artifactId>signer-maven-plugin</artifactId>
-            <version>${talend.version}</version>
+            <version>${signer.version}</version>
             <executions>
               <execution>
                 <id>sign</id>
@@ -184,8 +244,8 @@
       <properties>
         <talend.pigudf.excludes.set>org.talend.pigudf.${talend.project.name.lowercase}:*</talend.pigudf.excludes.set>
         <talend.libraries.excludes.set>${talend.libraries.includes.set}</talend.libraries.excludes.set>
-        <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
         <talend.code.excludes.set>org.talend.code.${talend.project.name.lowercase}:*</talend.code.excludes.set>
+        <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
         <talend.libraries.includes.set>org.talend.libraries:*</talend.libraries.includes.set>
         <current.job.binaries.include>${project.groupId}:${project.artifactId}:${project.version}</current.job.binaries.include>
       </properties>
